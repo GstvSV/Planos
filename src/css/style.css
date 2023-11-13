@@ -26,6 +26,7 @@ body{
     font-size: 3em;
     margin: 20px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .menu{
@@ -84,7 +85,8 @@ main h1{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px 40px 20px;
+    padding: 20px;
+    box-shadow: 0 5px 15px -6px black;
 }
 
 .conteudo{
@@ -107,6 +109,11 @@ main h1{
 
 .conteudo li{
     padding: 5px;
+    font-size: 0.9em;
+}
+
+.conteudo li::marker{
+    color: #CCE201;
 }
 
 .card h3{
@@ -117,6 +124,7 @@ main h1{
     text-transform: uppercase;
     text-align: left;
     border-bottom: 1px solid #97A709;
+    letter-spacing: 2px;
 }
 
 .subs{
@@ -133,4 +141,5 @@ main h1{
 .subs:hover{
     background-color: #0C0F14;
     color: #CCE201;
+    outline: 1px solid #CCE201;
 }
